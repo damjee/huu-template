@@ -1,0 +1,17 @@
+service: huu-template
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  lambdaHashingVersion: '20201221'
+  stage: dev
+  region: us-west-1
+  environment:
+    SERVER_PORT: 3000
+
+functions:
+ functionName:
+    handler: lambda.handler
+    events:
+      - httpApi: '*'

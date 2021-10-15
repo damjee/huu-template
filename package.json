@@ -1,0 +1,21 @@
+{
+	"scripts": {
+		"test": "jest"
+	},
+	"dependencies": {
+		"aws-lambda-fastify": "^1.7.1",
+		"fastify": "^3.22.0",
+		"fastify-autoload": "^3.9.0",
+		"fastify-helmet": "^5.3.2",
+		"fastify-plugin": "^3.0.0",
+		"fastify-sensible": "^3.1.1"
+	},
+	"devDependencies": {
+		"jest": "^27.2.5",
+		"pino-pretty": "^7.1.0"
+	},
+	"name": "huu-template",
+	"version": "1.0.0",
+	"main": "app.js",
+	"license": "MIT"
+}
